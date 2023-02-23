@@ -11,7 +11,6 @@ pipeline {
         }
     }
     stages {
-        ...output omitted...
         stage("Build & Push Image") {
             steps {
                 sh '''
